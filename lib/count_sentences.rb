@@ -37,11 +37,19 @@ class String
        sep_sent.any? do |sentence|
         sentence.end_with?"!!"
           sentence << "!"
+<<<<<<< HEAD
 
 
         end
           return sep_sent.count
 
+=======
+    
+    
+        end
+          return sep_sent.count
+    
+>>>>>>> 6f79111fd918bfb0455db166c6137a70e363aac0
     # self.split(/[])
     # return self.split(/[.?!]/).count
   end
